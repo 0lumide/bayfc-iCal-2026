@@ -2,8 +2,8 @@ import json
 import uuid
 from datetime import datetime, timedelta, timezone
 
-# Gemini updated this Python script to dynamically build the description from optional JSON fields 
-# using friendlier terms for the calendar event details.
+# Gemini updated this Python script to fix the strftime formatting bug 
+# that caused Google Calendar to default event times to midnight.
 
 def generate_ics(json_filepath, output_filepath):
     with open(json_filepath, 'r') as f:
@@ -23,8 +23,9 @@ def generate_ics(json_filepath, output_filepath):
         dt_start = datetime.strptime(dt_str, "%Y-%m-%d %H:%M")
         dt_end = dt_start + timedelta(hours=2) 
         
-        start_str = dt_start.strftime("%Y%m%dT%H%M%00")
-        end_str = dt_end.strftime("%Y%m%dT%H%M%00")
+        # Fixed: Using %S for seconds instead of %00
+        start_str = dt_start.strftime("%Y%m%dT%H%M%S")
+        end_str = dt_end.strftime("%Y%m%dT%H%M%S")
         
         location = "PayPal Park, San Jose, CA" if game["is_home"] else "Away"
         summary = f"Bay FC vs {game['opponent']}" if game["is_home"] else f"Bay FC @ {game['opponent']}"
