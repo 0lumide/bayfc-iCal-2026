@@ -13,6 +13,8 @@ Copy the `.ics` link below and add it via your app's "Add Calendar from URL" or 
 
 `https://raw.githubusercontent.com/0lumide/bayfc-iCal-2026/refs/heads/master/schedule.ics`
 
+You can also try copying the URL below and pasting it directly into the address bar of a new tab to prompt your native calendar app to open:
+`webcal://raw.githubusercontent.com/0lumide/bayfc-iCal-2026/refs/heads/master/schedule.ics`
 
 ## 2026 Schedule Overview
 
