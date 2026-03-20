@@ -6,10 +6,9 @@ A simple, no-nonsense iCal subscription for the 2026 Bay FC season. No accounts,
 
 Choose your platform below to automatically subscribe to the calendar feed. This ensures your calendar updates dynamically if game times change.
 
-[![Add to Apple Calendar](https://img.shields.io/badge/Apple_Calendar-Subscribe-black?logo=apple&style=for-the-badge)](webcal://raw.githubusercontent.com/0lumide/bayfc-iCal-2026/refs/heads/master/schedule.ics)
 [![Add to Google Calendar](https://img.shields.io/badge/Google_Calendar-Subscribe-blue?logo=googlecalendar&style=for-the-badge)](https://calendar.google.com/calendar/r?cid=webcal://raw.githubusercontent.com/0lumide/bayfc-iCal-2026/refs/heads/master/schedule.ics)
 
-**For Outlook or other apps:**
+**For Apple Calendar, Outlook, or other apps:**
 Copy the `.ics` link below and add it via your app's "Add Calendar from URL" or "Subscribe from Web" feature. Please do not just download the file, or it will not update automatically.
 
 `https://raw.githubusercontent.com/0lumide/bayfc-iCal-2026/refs/heads/master/schedule.ics`
