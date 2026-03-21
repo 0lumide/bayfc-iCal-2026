@@ -28,7 +28,7 @@ def generate_ics(json_filepath, output_filepath):
         end_str = dt_end.strftime("%Y%m%dT%H%M%S")
         
         location = "PayPal Park, San Jose, CA" if game["is_home"] else "Away"
-        summary = f"Bay FC vs {game['opponent']}" if game["is_home"] else f"Bay FC @ {game['opponent']}"
+        summary = f"Bay FC vs {game['opponent']}" if game["is_home"] else f"[Away] Bay FC @ {game['opponent']}"
         
         # Dynamically build the event block
         event = [
