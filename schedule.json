@@ -14,7 +14,7 @@
     "time": "17:45",
     "opponent": "Angel City FC",
     "is_home": true,
-    "broadcast": "",
+    "broadcast": "ION",
     "theme": "Women's Empowerment Match",
     "giveaway": "",
     "halftime": "Performance by Oakland-born artist Kamiyah + 25th anniversary tribute to Bay Area CyberRays (2001 WUSA champions)"
@@ -24,7 +24,7 @@
     "time": "16:00",
     "opponent": "North Carolina Courage",
     "is_home": false,
-    "broadcast": "",
+    "broadcast": "Victory+, NWSL+",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -34,7 +34,17 @@
     "time": "14:00",
     "opponent": "Washington Spirit",
     "is_home": true,
-    "broadcast": "",
+    "broadcast": "ESPN2",
+    "theme": "Hello Kitty Match",
+    "giveaway": "",
+    "halftime": ""
+  },
+  {
+    "date": "2026-04-17",
+    "time": "19:00",
+    "opponent": "Ottawa Rapid FC (Friendly)",
+    "is_home": true,
+    "broadcast": "Victory+",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -44,7 +54,7 @@
     "time": "10:00",
     "opponent": "NJ/NY Gotham FC",
     "is_home": false,
-    "broadcast": "",
+    "broadcast": "CBS",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -54,7 +64,7 @@
     "time": "16:00",
     "opponent": "San Diego Wave FC",
     "is_home": false,
-    "broadcast": "",
+    "broadcast": "Victory+",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -64,27 +74,27 @@
     "time": "13:00",
     "opponent": "Utah Royals FC",
     "is_home": true,
-    "broadcast": "",
-    "theme": "",
+    "broadcast": "Victory+",
+    "theme": "AANHPI Heritage Match",
     "giveaway": "",
     "halftime": ""
   },
   {
     "date": "2026-05-15",
     "time": "19:00",
-    "opponent": "BOS Nation FC",
+    "opponent": "Boston Legacy FC",
     "is_home": true,
-    "broadcast": "",
+    "broadcast": "Victory+",
     "theme": "",
-    "giveaway": "",
+    "giveaway": "Bay FC Ball Cap",
     "halftime": ""
   },
   {
     "date": "2026-05-20",
     "time": "19:00",
-    "opponent": "Portland Thorns",
+    "opponent": "Portland Thorns FC",
     "is_home": false,
-    "broadcast": "",
+    "broadcast": "Victory+",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -92,9 +102,9 @@
   {
     "date": "2026-05-24",
     "time": "14:00",
-    "opponent": "Chicago Red Stars",
+    "opponent": "Chicago Stars FC",
     "is_home": true,
-    "broadcast": "",
+    "broadcast": "ESPN+",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -104,7 +114,7 @@
     "time": "16:00",
     "opponent": "Orlando Pride",
     "is_home": false,
-    "broadcast": "",
+    "broadcast": "Victory+, NWSL+",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -112,9 +122,9 @@
   {
     "date": "2026-07-05",
     "time": "09:00",
-    "opponent": "BOS Nation FC",
+    "opponent": "Boston Legacy FC",
     "is_home": false,
-    "broadcast": "",
+    "broadcast": "ESPN",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -124,7 +134,7 @@
     "time": "17:00",
     "opponent": "Racing Louisville FC",
     "is_home": false,
-    "broadcast": "",
+    "broadcast": "Victory+, NWSL+",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -134,9 +144,9 @@
     "time": "13:00",
     "opponent": "North Carolina Courage",
     "is_home": true,
-    "broadcast": "",
+    "broadcast": "CBS",
     "theme": "",
-    "giveaway": "",
+    "giveaway": "Bay FC Beach Towel",
     "halftime": ""
   },
   {
@@ -144,7 +154,7 @@
     "time": "17:00",
     "opponent": "Houston Dash",
     "is_home": false,
-    "broadcast": "",
+    "broadcast": "Victory+",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -154,7 +164,7 @@
     "time": "19:00",
     "opponent": "NJ/NY Gotham FC",
     "is_home": true,
-    "broadcast": "",
+    "broadcast": "Victory+, CBS Sports Network",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -164,7 +174,7 @@
     "time": "17:45",
     "opponent": "Seattle Reign FC",
     "is_home": true,
-    "broadcast": "",
+    "broadcast": "ION",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -172,9 +182,9 @@
   {
     "date": "2026-08-09",
     "time": "16:00",
-    "opponent": "Chicago Red Stars",
+    "opponent": "Chicago Stars FC",
     "is_home": false,
-    "broadcast": "",
+    "broadcast": "Victory+",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -184,7 +194,7 @@
     "time": "19:00",
     "opponent": "Utah Royals FC",
     "is_home": false,
-    "broadcast": "",
+    "broadcast": "Victory+",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -194,7 +204,7 @@
     "time": "15:00",
     "opponent": "Houston Dash",
     "is_home": true,
-    "broadcast": "",
+    "broadcast": "Victory+, CBS Sports Network",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -204,7 +214,7 @@
     "time": "09:30",
     "opponent": "Washington Spirit",
     "is_home": false,
-    "broadcast": "",
+    "broadcast": "ESPN2",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -214,17 +224,17 @@
     "time": "19:00",
     "opponent": "Kansas City Current",
     "is_home": true,
-    "broadcast": "",
+    "broadcast": "Prime Video",
     "theme": "",
     "giveaway": "",
     "halftime": ""
   },
   {
-    "date": "2026-09-11",
-    "time": "17:30",
+    "date": "2026-09-12",
+    "time": "17:00",
     "opponent": "Seattle Reign FC",
     "is_home": false,
-    "broadcast": "",
+    "broadcast": "Victory+, NWSL+",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -234,7 +244,7 @@
     "time": "18:30",
     "opponent": "Denver Summit FC",
     "is_home": false,
-    "broadcast": "",
+    "broadcast": "Victory+",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -244,7 +254,7 @@
     "time": "16:00",
     "opponent": "Racing Louisville FC",
     "is_home": true,
-    "broadcast": "",
+    "broadcast": "Victory+",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -254,7 +264,7 @@
     "time": "14:00",
     "opponent": "Orlando Pride",
     "is_home": true,
-    "broadcast": "",
+    "broadcast": "ESPN",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -264,7 +274,7 @@
     "time": "15:30",
     "opponent": "Kansas City Current",
     "is_home": false,
-    "broadcast": "",
+    "broadcast": "ION",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -274,7 +284,7 @@
     "time": "14:00",
     "opponent": "Portland Thorns FC",
     "is_home": true,
-    "broadcast": "",
+    "broadcast": "ESPN",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -284,7 +294,7 @@
     "time": "17:45",
     "opponent": "Angel City FC",
     "is_home": false,
-    "broadcast": "",
+    "broadcast": "ION",
     "theme": "",
     "giveaway": "",
     "halftime": ""
@@ -294,7 +304,7 @@
     "time": "14:00",
     "opponent": "San Diego Wave FC",
     "is_home": true,
-    "broadcast": "",
+    "broadcast": "ESPN, TBD",
     "theme": "",
     "giveaway": "",
     "halftime": ""
