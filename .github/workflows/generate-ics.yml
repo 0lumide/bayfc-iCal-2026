@@ -1,0 +1,40 @@
+name: Update ICS Calendar
+
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - 'schedule.json'
+  workflow_dispatch:
+
+jobs:
+  update-ics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Run generation script
+      run: python generate_ics.py
+
+    - name: Commit and push if changed
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add schedule.ics
+        if ! git diff-index --quiet HEAD --; then
+          git commit -m "Auto-update schedule.ics [skip ci]"
+          git push
+        else
+          echo "No changes in schedule.ics"
+        fi
